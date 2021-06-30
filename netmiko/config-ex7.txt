@@ -1,0 +1,3 @@
+username collab privilege 15 algorithm-type scrypt secret collab
+!
+clock timezone UTC 2 0

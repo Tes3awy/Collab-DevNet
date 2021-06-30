@@ -1,0 +1,4 @@
+netmiko==3.4.0
+xlsxwriter==1.4.3
+pandas==1.2.5
+openpyxl==3.0.7

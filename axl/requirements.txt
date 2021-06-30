@@ -1,0 +1,4 @@
+ciscoaxl
+pandas==1.2.5
+xlsxwiter==1.4.3
+openpyxl==3.0.7
