@@ -55,7 +55,7 @@ with xlsxwriter.Workbook(filename="Voice-Gateways-Inventory.xlsx") as workbook:
             )
 
         # Create a sheet with the hostname of each router
-        worksheet = workbook.add_worksheet(f"{hostname} brief")
+        worksheet = workbook.add_worksheet(f'{router["ip"]} inventory')
         worksheet.autofilter("A1:E1")  # Auto filter for each sheet
         worksheet.freeze_panes(1, 1)  # Freeze panes for each sheet
 
